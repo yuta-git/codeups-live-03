@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  font-family: "";
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .u-desktop {
@@ -192,5 +192,10 @@ select::-ms-expand {
   font-size: 100px;
   font-size: 6.25rem;
   color: red;
+}
+
+.c-test--english {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 /*# sourceMappingURL=styles.css.map */
