@@ -1,0 +1,7 @@
+@use 'global' as *;
+
+.l-footer {
+  background-color: $bg-black;
+  padding-top: rem(60);
+  padding-bottom: rem(20);
+}
