@@ -50,4 +50,15 @@ jQuery(function ($) { // この中であればWordpressでも「$」が使用可
     return false;
   });
 
+  var swiper = new Swiper(".js-works-swiper", {
+    pagination: {
+      el: ".js-works-paginations",
+    },
+    clickable: true,
+    loop: true,
+    autoplay: {
+      delay: 3000,
+    },
+  });
+
 });
